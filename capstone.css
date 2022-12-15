@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+h1::before {
+  left: 500px;
+  bottom: -8px;
+  content: "";
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  border-top: 2px solid gray;
+  position: absolute;
+}
+
+h1::after {
+  left: 530px;
+  bottom: -16px;
+  content: "";
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  border-top: 2px solid gray;
+  position: absolute;
+}
+a {
+  color: #060e1f;
+}
+/* card */
+.card-single {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.card-info {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.social-icons-section a.facebook,
+.social-icons-section a.twitter,
+.social-icons-section a.google {
+  background: #fff;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.social-icons-section a span {
+  color: #0d369f;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.social-icons-section a:hover {
+  opacity: 0.8;
+}
+
+.team-info {
+  position: absolute;
+  bottom: -280px;
+  margin: 0;
+  background: rgba(52, 49, 49, 0.511);
+  padding: 20px 0;
+  transition: 0.5s all;
+  width: 100%;
+  text-align: center;
+}
+
+.card-single:hover .team-info {
+  bottom: 0;
+  color: black;
+}
+
+.card-single:hover .card-name h5 {
+  color: #ff6e65;
+}
+
+.card-info img {
+  width: 100%;
+}
+
+.card-name h5:hover {
+  color: #ff6e65;
+  text-decoration: none;
+}
+
+/* end card */
+
+/* contact */
+.title-style {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.btn-style-secondary {
+  background: #ff6e65;
+  color: #fff;
+  height: 52px;
+  width: 144px;
+  border-style: none;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 14px auto;
+  margin: -16px;
+}
+
+.btn-style-secondary:hover {
+  background: #0d369f;
+}
+
+.footer-sub {
+  background: #060e1f;
+  padding: 90px 0;
+}
+
+.top-side {
+  padding: 32px;
+  max-width: 1000px;
+  border-radius: 10px;
+  background: #fff;
+  top: -60px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  box-shadow: 0px -1px 36px 0px #1e1d1d43;
+  margin: 0 auto;
+}
+footer .title-head {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.main-midd p {
+  font-size: 15px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+
+.title-btn .btn {
+  display: inline-block;
+  background: #0d369f;
+  height: 52px;
+  width: 128px;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  font-weight: 600;
+}
+
+.rightside-form input {
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 8px 0 0px 8;
+  width: 100%;
+  height: 52px;
+  border: 1px solid #eee;
+  background: transparent;
+}
+
+.rightside-form {
+  display: flex;
+}
+
+/*  */
+.sub-right h5,
+.sub-left h5,
+.sub-left-about h5 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #eeeeee45;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.sub-right ul li,
+.sub-left ul li,
+.sub-left-about ul li {
+  list-style: none;
+}
+
+.sub-right ul li span {
+  margin-right: 12px;
+  color: #cecece;
+}
+
+.sub-right p,
+.sub-left-about p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #cecece;
+}
+
+.sub-columns {
+  margin-top: 120px;
+}
+
+.sub-left-social ul li {
+  display: inline-block;
+  margin-right: 2px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+}
+
+.info,
+.info a {
+  color: #cecece;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.info a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info span {
+  font-size: 16px;
+  color: #cecece;
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 25px;
+  text-align: center;
+}
+
+.social li a span {
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.href2 {
+  padding: 12px 0;
+}
+
+.sub-left p {
+  font-size: 14px;
+}
+
+.sub-right a {
+  color: #cecece;
+  font-size: 14px;
+}
+
+.line-about {
+  border-left: 1px solid rgba(191, 191, 191, 0.195);
+}
+p.count-text.dark {
+  color: white;
+}
+/* responsive */
+@media (max-width: 991px) {
+  .top-side {
+    margin: 0 4em;
+  }
+}
